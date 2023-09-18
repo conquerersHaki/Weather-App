@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(rgb(29, 29, 29), rgb(99, 99, 99));
+  background: linear-gradient(rgb(95, 175, 202), rgb(200, 234, 243));
   background-attachment: fixed;
 
 }
@@ -80,7 +80,7 @@ h2 {
 
 .search > h1,
 .search > h3 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 15px;
   text-shadow: 0 1px #ffffff;
 }
@@ -136,22 +136,24 @@ h2 {
 
 .button {
   display: block;
-  max-width: 100px;
   margin: auto;
   text-align: center;
+  font-size:x-large;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  background: rgb(32, 32, 32);
+  color: rgba(8, 61, 77, 0.8);
+  background: rgb(255, 255, 255);
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 30px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
 }
 
 
 .glow-button:hover {
-  color: rgb(255, 255, 255);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+  color: rgb(42, 89, 110);
+  box-shadow: 0 5px 15px rgb(255, 255, 255);
 }
 
 
@@ -162,14 +164,14 @@ h2 {
   display: flex;
   width: 95%;
   border-radius: 15px;
-  border: 2px solid rgb(231, 231, 231);
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
   padding: 10px;
   margin: 30px;
-  box-shadow: 10px 10px 10px rgb(71, 71, 71);
+  box-shadow: 10px 10px 10px rgb(47, 125, 167);
 }
 
 
@@ -178,16 +180,18 @@ h2 {
 .box3,
 .box4,
 .box5,
-.boxes {
+#boxes {
+  color: rgb(7, 78, 116);
+  font-size: larger;
   border-radius: 15px;
-  border: 3px solid rgb(41, 41, 41);
+  border: 3px solid rgb(255, 255, 255);
   padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  box-shadow: 5px 5px 10px rgb(49, 49, 49);
+  box-shadow: 5px 5px 10px rgb(47, 125, 167);
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 50px
