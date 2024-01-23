@@ -103,7 +103,7 @@ h2 {
 }
 
 .search > div > input {
-  color: white;
+  color: rgb(20, 41, 92);
   font-size: 16px;
   background: transparent;
   width: 25px;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .search > div > input::placeholder {
-  color: #efefef;
+  color: #12315c;
   opacity: 0;
   transition: opacity 150ms ease-out;
 }
@@ -130,6 +130,10 @@ h2 {
   width: 250px;
 }
 
+#citySearch::placeholder {
+  color: rgb(13, 40, 101);
+  font-size: larger;
+}
 
 /* button styling */
 
@@ -173,7 +177,7 @@ h2 {
 
 
 .box,
-#boxes, .bottom-box { /* added bottom-box so it looks the same */
+#boxes, .first-box {
   position: relative;
   display: inline-block;
   height: auto;
@@ -193,14 +197,6 @@ h2 {
   margin: 50px;
 }
 
-.box:last-child {
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-}
+.first-box {
 
-.box {
-  align-content: center;
 }
