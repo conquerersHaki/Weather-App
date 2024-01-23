@@ -22,7 +22,7 @@ An application to see the weather in user's choice of area
 
 This application is built to aid users in searching up the weather forecast breakdown for, not only the current day, but the upcoming five days for a city of the user's choosing.
 
-Link to working appllication: [![Weather Link](https://conquerershaki.github.io/Weather-App/)
+Link to working appllication: (https://conquerershaki.github.io/Weather-App/)
 
 ---
 
