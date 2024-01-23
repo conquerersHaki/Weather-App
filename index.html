@@ -24,32 +24,38 @@
         <div class="search">
           <h3>Click on the magnifying glass to enter your desired city.</h3>
           <div>
-            <input type="text" id="citySearch" color="dark-blue" placeholder="Enter City...">
+            <input type="text" id="location" color="dark-blue" placeholder="Enter City...">
           </div>
         </div>
       </div>
     <!-- button for seraching city -->
-    <input type="button" class="button glow-button" value="Go">
+    <button onclick="getWeather()">Go</button>
+
+    <h1>Today</h1>
+      <div id="localTime"></div>
+      <section id="breakdown">
+      <div class="breakdown-box" id="hour1"></div>
+      </section>
+
     
     <!-- weather boxes -->
-    <div class="container" id="weatherContainer" style="display:none;">
-        <div id="boxes">
-          <div class="first-box">
-          </div>
-            <div class="box box1">
+    <section id="forecast">
+    <div class="container" id="forecast">
+            <div class="weather-box" id="day1">
             </div>
-            <div class="box box2">
+            <div class="weather-box" id="day2">
              </div>
-            <div class="box box3">
+            <div class="weather-box" id="day3">
             </div>
-            <div class="box box4">
+            <div class="weather-box" id="day4">
             </div>
-            <div class="box box5">
+            <div class="weather-box" id="day5">
             </div>
             
         </div>
 
     </div>
+  </section>
     <script src="./js/script.js"></script>
 </body>
 </html>
